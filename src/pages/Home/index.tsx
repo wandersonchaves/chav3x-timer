@@ -4,6 +4,7 @@ import {
   FormContainer,
   HomeContainer,
   Separator,
+  StartCountdownButton,
 } from "./styles";
 import {
   MinutesAmountInput,
@@ -53,10 +54,10 @@ export function Home() {
           <span>0</span>
         </CountdownContainer>
 
-        <button type="submit">
+        <StartCountdownButton type="submit">
           <Play size={24} />
           Comecar
-        </button>
+        </StartCountdownButton>
       </form>
     </HomeContainer>
   );
